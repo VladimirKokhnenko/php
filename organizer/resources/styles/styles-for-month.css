@@ -1,0 +1,41 @@
+#grid-container-month {
+    display: grid;
+    grid-template-columns: [button] 1fr [month] 10fr [button] 1fr;
+    gap: 0.3em;
+}
+
+#grid-item-month {
+    text-align: center;
+    font-size: 2em;
+    color: black;
+}
+
+#grid-item-button {
+    text-align: center;
+    margin: auto;
+}
+
+.show-year thead tr th,
+.show-year tbody tr td {
+    border: solid 0.1em black;
+    color: black;
+}
+
+table {
+    margin: auto;
+    margin-bottom: 1.5em;
+}
+
+button {
+    background-color: white;
+    border:white;
+    font-size: 2em;
+}
+
+button:hover {
+    background-color: skyblue;
+}
+
+button.row {
+    font-size: 4em;
+}

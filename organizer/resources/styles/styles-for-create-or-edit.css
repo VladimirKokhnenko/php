@@ -1,0 +1,30 @@
+Table,
+Table.Create thead tr th,
+Table.Create tbody tr td {
+    border: solid 0.1em black;
+    border-collapse: collapse;
+    color: black;
+}
+
+input {
+    border-color: white;
+}
+
+#idInputTime {
+    margin-left: 39.3em;
+}
+
+#idInputNameOfTask {
+    width: 44em;
+}
+
+textarea {
+    max-width: 50em;
+    min-width: 50em;
+    border-color: white;
+}
+
+label {
+    margin-left: 0.5em;
+    margin-right: 1em;
+}

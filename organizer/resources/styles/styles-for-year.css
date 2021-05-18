@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+#grid-container-year {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(25em, 1fr));
+    gap: 0.3em;
+}
+
+#grid-item-year {
+    text-align: center;
+    color: black;
+    border: solid 0.1em #000;
+}
+
+#grid-item-year:hover {
+    background-color: lightblue;
+    color: mediumblue;
+}
+
+.show-year thead tr th,
+.show-year tbody tr td {
+    border: solid 0.1em black;
+    padding: 0.2em;
+    color: black;
+}
+
+table {
+    margin: auto;
+    margin-bottom: 1.5em;
+}
+
+.week-hov:hover {
+    background-color: yellow;
+}
+
+.day-hov:hover {
+    background-color: orange;
+}
+
+button {
+    background-color: white;
+    border:white;
+}
+
+button:hover {
+    background-color: skyblue;
+}
